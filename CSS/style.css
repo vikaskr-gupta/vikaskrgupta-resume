@@ -17,19 +17,20 @@
 }
 
 body {
-    background-color: rgb(110, 110, 110);
+    /* background-color: rgb(110, 110, 110); */
+    background-color: black;
     padding: 0%;
     margin: 0%;
     /* margin: auto; */
 }
 
 .heading {
-    padding: 56px;
-    margin: 0px;
+    padding: 2%;
+    margin: 0%;
 }
 
 .detail {
-    margin: 0px;
+    margin: 0%;
 }
 
 .detail a {
@@ -77,7 +78,17 @@ hr {
 }
 
 .border {
-    background-color: rgb(201, 201, 201);
-    padding: 56px;
-    margin: 33px;
+    /* background-color: rgb(201, 201, 201); */
+    background-color: white;
+    padding: 8%;
+    margin: 0%;
+}
+
+.sub_heading {
+    padding-top: 2%;
+    margin: 0%;
+}
+
+.h-primary {
+    padding: 3% 0% 2% 0%;
 }
