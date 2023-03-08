@@ -1,4 +1,3 @@
-/* CSS Reset */
 .left img {
     width: 2%;
     height: 2%;
@@ -6,11 +5,11 @@
 
 .left a {
     text-decoration: none;
-    color: black;
+    color: #0d6efd;
 }
 
 .left a:hover {
-    color: #0d6efd;
+    color: #002d70;
 }
 
 .left a:active {
@@ -18,11 +17,8 @@
 }
 
 body {
-    /* background-color: rgb(110, 110, 110); */
-    background-color: white;
     padding: 0%;
     margin: 0%;
-    /* margin: auto; */
 }
 
 .heading {
@@ -60,10 +56,6 @@ p {
     margin-inline-end: 10px;
 }
 
-/* hr {
-    height:9px;
-    background-color:black;
-} */
 .horizon_line {
     background-color:#000000;
     height:10px;
@@ -84,8 +76,6 @@ p {
 }
 
 .border {
-    /* background-color: rgb(201, 201, 201); */
-    background-color: white;
     padding: 8%;
     margin: 0%;
 }
