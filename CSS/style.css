@@ -9,11 +9,11 @@
 }
 
 .left a:hover {
-    color: rgb(223, 12, 12);
+    color: blue;
 }
 
 .left a:active {
-    color: blue;
+    color: red;
 }
 
 body {
@@ -59,9 +59,14 @@ p {
     margin-inline-end: 10px;
 }
 
-hr {
+/* hr {
     height:9px;
     background-color:black;
+} */
+.horizon_line {
+    background-color:#000000;
+    height:10px;
+    width:100%;
 }
 
 .date {
