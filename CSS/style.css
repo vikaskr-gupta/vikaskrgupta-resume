@@ -10,7 +10,7 @@
 }
 
 .left a:hover {
-    color: blue;
+    color: #0d6efd;
 }
 
 .left a:active {
@@ -35,7 +35,7 @@ body {
 }
 
 .detail a {
-    color: rgb(0, 0, 255);
+    color: #0d6efd;
     text-decoration: none;
 }
 
