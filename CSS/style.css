@@ -39,6 +39,14 @@ body {
     color: rgb(228, 6, 6);
 }
 
+.edu_qua li{
+    padding: 0% 0% 0% 0%;
+}
+
+.sep {
+    padding: 1% 0% 0% 0%;
+}
+
 .profile {
     font-size: 3rem;
     font-weight:var(heading);
@@ -67,10 +75,6 @@ p {
     font-size: 82%;
 }
 
-.h-primary {
-    font-size: 125%;
-}
-
 .print {
     float: right;
 }
@@ -86,5 +90,6 @@ p {
 }
 
 .h-primary {
-    padding: 3% 0% 2% 0%;
+    padding: 1% 0% 1% 0%;
+    font-size: 125%;
 }
