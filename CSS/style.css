@@ -80,9 +80,9 @@ p {
     /* font-size: 115%; */
 }
 
-.print {
+/* .print {
     float: right;
-}
+} */
 
 .border {
     padding: 125px 0px;
@@ -102,3 +102,19 @@ p {
 .sep{
     font-size: 32px;
 }
+
+/* -------------------------------------------BarCodes ------------------------------------------- */
+
+/* .left_bar{
+    margin: 30px;
+    padding: 30px;
+} */
+
+.bar img{
+    float: right;
+    width: 230px;
+    height: 230px;
+    margin: 30px;
+    padding: 30px;
+}
+/* -------------------------------------------BarCodes ------------------------------------------- */
