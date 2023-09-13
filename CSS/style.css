@@ -18,16 +18,14 @@
 .left a:active {
     color: red;
 }
-.right{
-    float: right;
-}
+
 body {
     padding: 0%;
     margin: 0%;
 }
 
 .heading {
-    padding: 2%;
+    padding: 0% 2% 6% 2%;
     margin: 0%;
 }
 
@@ -105,16 +103,49 @@ p {
 
 /* -------------------------------------------BarCodes ------------------------------------------- */
 
-/* .left_bar{
-    margin: 30px;
-    padding: 30px;
-} */
-
-.bar img{
+.right {
     float: right;
+    font-size: 32px;
+}
+
+.right a {
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+.right a:hover {
+    color: #002d70;
+}
+
+.right a:active {
+    color: red;
+}
+
+.barcode{
+    display: flex;
+    flex-direction: row;
+}
+
+.barcode li{
+    list-style: none;
+}
+
+.barcode img{
+    /* float: right; */
     width: 190px;
     height: 198px;
     margin: 10px;
     padding: 10px;
+}
+
+.barcode_name{
+    display: flex;
+    flex-direction: row;
+}
+
+.barcode_name li{
+    list-style: none;
+    margin: 0px 50px 0px 27px;
+    padding: 0px;
 }
 /* -------------------------------------------BarCodes ------------------------------------------- */
