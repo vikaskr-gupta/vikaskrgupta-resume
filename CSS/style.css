@@ -73,6 +73,12 @@ p {
     width:100%;
 }
 
+.sub_horizon_line {
+    background-color:#000000;
+    height:5px;
+    width:100%;
+}
+
 .date {
     float: right;
     /* font-size: 115%; */
@@ -93,7 +99,7 @@ p {
 }
 
 .h-primary {
-    padding: 1% 0% 1% 0%;
+    padding: 1% 0% 0% 0%;
     font-size: 32px;
 }
 
