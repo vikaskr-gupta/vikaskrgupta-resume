@@ -73,11 +73,11 @@ p {
     width:100%;
 }
 
-.sub_horizon_line {
+/* .sub_horizon_line {
     background-color:#000000;
     height:5px;
     width:100%;
-}
+} */
 
 .date {
     float: right;
