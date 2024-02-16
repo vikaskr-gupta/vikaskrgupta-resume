@@ -1,5 +1,5 @@
 .left {
-    font-size: 32px;
+    font-size: 38px;
 }
 .left img {
     width: 2%;
@@ -8,11 +8,11 @@
 
 .left a {
     text-decoration: none;
-    color: #0d6efd;
+    color: #0004eb;
 }
 
 .left a:hover {
-    color: #002d70;
+    color: #001636;
 }
 
 .left a:active {
@@ -34,12 +34,16 @@ body {
 }
 
 .detail a {
-    color: #0d6efd;
-    text-decoration: none;
+    color: #0004eb;
+    /* text-decoration: none; */
+}
+
+.detail a:hover {
+    color: #001636;
 }
 
 .detail a:active {
-    color: rgb(228, 6, 6);
+    color: red;
 }
 
 .edu_qua li{
@@ -56,7 +60,7 @@ body {
 }
 
 h2 {
-    font-size: 125%;
+    font-size: 130%;
 }
 
 p {
@@ -100,27 +104,28 @@ p {
 
 .h-primary {
     padding: 1% 0% 0% 0%;
-    font-size: 32px;
+    font-size: 38px;
+    color: #0066ff;
 }
 
 .sep{
-    font-size: 32px;
+    font-size: 38px;
 }
 
 /* -------------------------------------------BarCodes ------------------------------------------- */
 
 .right {
     float: right;
-    font-size: 32px;
+    font-size: 38px;
 }
 
 .right a {
-    text-decoration: none;
-    color: #0d6efd;
+    /* text-decoration: none; */
+    color: #0004ff;
 }
 
 .right a:hover {
-    color: #002d70;
+    color: #0f428d;
 }
 
 .right a:active {
