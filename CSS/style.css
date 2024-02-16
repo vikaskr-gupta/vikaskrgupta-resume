@@ -35,7 +35,7 @@ body {
 
 .detail a {
     color: #0004eb;
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 
 .detail a:hover {
@@ -93,7 +93,7 @@ p {
 } */
 
 .border {
-    padding: 125px 0px;
+    padding: 4% 0%;
     margin: auto;
 }
 
@@ -117,7 +117,7 @@ p {
 .right {
     float: right;
     font-size: 38px;
-    margin: 0px 90px 0px 0px;
+    margin: 0px 45px 0px 0px;
 }
 
 .right a {
