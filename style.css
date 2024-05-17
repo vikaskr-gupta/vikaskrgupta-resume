@@ -1,0 +1,130 @@
+/* .container{
+    border: 1px solid rgb(48, 248, 30);
+} */
+/* .content{
+    border: 1px solid rgb(255, 2, 2);
+} */
+/* .header{
+    border: 1px solid rgb(49, 30, 220);
+} */
+/* .h-ch{
+    border: 1px solid rgb(73, 77, 31);
+} */
+/* .section{
+    border: 1px solid rgb(49, 30, 220);
+} */
+/* .sub-sec{
+    border: 1px solid rgb(253, 164, 11);
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: 'Arial, Cambria, Garamond, and Times New Roman'; */
+    font-family: 'Cambria';
+}
+
+a{
+    text-decoration: none;
+    color: #0000EE;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 100em;
+    margin: 4% 3% 2% 3%;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.h-ch{
+    margin: 0 1%;
+}
+
+/* LEFT */
+.name{
+    font-size: 220%;
+}
+
+.left img{
+    width: 0.8em;
+    height: 0.7em;
+}
+
+.phone{
+    margin-top: 2%;
+    font-size: 90%;
+}
+
+.gmail{
+    font-size: 90%;
+}
+
+.gmail strong{
+    color: black;
+}
+
+/* RIGHT */
+.bar img{
+    width: 5em;
+    height: 5em;
+}
+
+.bar_name{
+    text-align: center;
+}
+
+.bar_name strong{
+    text-decoration: none;
+    margin: 0 5%;
+    font-size: 90%;
+}
+
+/* BORDER */
+.border{
+    height: 0.5em;
+    margin: 1% 0;
+    background: #000;
+}
+
+/* SECTION */
+.sub-sec{
+    margin: 1% 0;
+}
+
+.sub-sec-head{
+    color: rgb(24, 24, 159);
+    font-size: 105%;
+    font-weight: bold;
+}
+
+.sub-sec-para{
+    font-size: 90%;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.sub-sec-para-li{
+    margin-bottom: 1%;
+}
+
+.sub-sep{
+    margin-left: 2%;
+}
+
+.date{
+    float: right;
+}
