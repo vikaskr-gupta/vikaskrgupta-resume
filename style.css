@@ -13,7 +13,10 @@
     border: 1px solid rgb(73, 77, 31);
 } */
 /* .section{
-    border: 1px solid rgb(49, 30, 220);
+    border: 2px solid rgb(49, 30, 220);
+} */
+/* .s-ch{
+    border: 1px solid rgb(255, 57, 18);
 } */
 /* .sub-sec{
     border: 1px solid rgb(253, 164, 11);
@@ -62,9 +65,13 @@ a{
     font-size: 220%;
 }
 
-.left img{
+.h-left img{
     width: 0.8em;
     height: 0.7em;
+}
+
+.h-left{
+    margin-top: 2%;
 }
 
 .phone{
@@ -99,13 +106,30 @@ a{
 /* BORDER */
 .border{
     height: 0.5em;
-    margin: 1% 0;
+    margin: 3% 0;
     background: #000;
 }
 
 /* SECTION */
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.s-left{
+    /* margin: 0 1%; */
+    margin: 0% 3% 0% 0%;
+}
+
+.s-right{
+    /* margin: 0 1%; */
+    margin: 0% 0% 0% 1%;
+}
+
 .sub-sec{
-    margin: 1% 0;
+    margin: 1% 0% 2% 0%;
 }
 
 .sub-sec-head{
@@ -116,7 +140,7 @@ a{
 
 .sub-sec-para{
     font-size: 90%;
-    margin-left: 2%;
+    margin-left: 3%;
     margin-top: 1%;
 }
 
@@ -124,9 +148,17 @@ a{
     margin-bottom: 1%;
 }
 
-.sub-sep{
-    margin-left: 2%;
+.s-r-ssp{
+    margin-left: 7%;
 }
+
+.s-l-ssp{
+    margin-left: 4%;
+}
+
+/* .sub-sep{
+    margin-left: 2%;
+} */
 
 .date{
     float: right;
