@@ -116,16 +116,17 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 .s-left{
     /* margin: 0 1%; */
-    margin: 0% 3% 0% 0%;
+    margin: 0% 4% 0% 0%;
 }
 
 .s-right{
     /* margin: 0 1%; */
-    margin: 0% 0% 0% 1%;
+    margin: 0% 0% 0% 4%;
 }
 
 .sub-sec{
@@ -146,14 +147,15 @@ a{
 
 .sub-sec-para-li{
     margin-bottom: 1%;
+    /* text-align: justify; */
 }
 
 .s-r-ssp{
-    margin-left: 7%;
+    margin-left: 5%;
 }
 
 .s-l-ssp{
-    margin-left: 4%;
+    margin-left: 5%;
 }
 
 /* .sub-sep{
