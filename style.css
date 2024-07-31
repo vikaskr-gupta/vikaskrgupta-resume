@@ -34,7 +34,7 @@
 
 a{
     text-decoration: none;
-    color: #0000EE;
+    color: #2471ff;
 }
 
 .container{
@@ -57,7 +57,7 @@ a{
 }
 
 .h-ch{
-    margin: 0 1%;
+    margin: 1% 1%;
 }
 
 /* LEFT */
@@ -71,7 +71,7 @@ a{
 }
 
 .h-left{
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .phone{
@@ -134,7 +134,7 @@ a{
 }
 
 .sub-sec-head{
-    color: rgb(24, 24, 159);
+    color: rgb(37, 139, 255);
     font-size: 105%;
     font-weight: bold;
 }
@@ -164,4 +164,5 @@ a{
 
 .date{
     float: right;
+    margin-left: 5px;
 }
