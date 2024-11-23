@@ -51,9 +51,9 @@ a{
 
 /* HEADER */
 .header{
-    /* display: flex;
+    display: flex;
     flex-direction: row;
-    justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .h-ch{
@@ -65,18 +65,26 @@ a{
     font-size: 220%;
 }
 
-/* .h-left img{
+.h-left img{
     width: 0.8em;
     height: 0.7em;
-} */
+}
 
 .h-left{
     margin-top: 1%;
 }
 
-.contact-details,
-.address{
+.phone{
+    margin-top: 2%;
     font-size: 90%;
+}
+
+.gmail{
+    font-size: 90%;
+}
+
+.gmail strong{
+    color: black;
 }
 
 /* RIGHT */
@@ -107,18 +115,18 @@ a{
 .section{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
-    gap: 2%;
+    justify-content: space-between;
+    
 }
 
 .s-left{
     /* margin: 0 1%; */
-    /* margin: 0% 4% 0% 0%; */
+    margin: 0% 4% 0% 0%;
 }
 
 .s-right{
     /* margin: 0 1%; */
-    /* margin: 0% 0% 0% 4%; */
+    margin: 0% 0% 0% 4%;
 }
 
 .sub-sec{
@@ -143,19 +151,11 @@ a{
 }
 
 .s-r-ssp{
-    margin-left: 7%;
+    margin-left: 5%;
 }
 
 .s-l-ssp{
     margin-left: 5%;
-}
-
-.sub-sec-para-head{
-    font-size: 90%;
-    margin-block: 3px;
-}
-.sub-sec-para-head b{
-color: blue;
 }
 
 /* .sub-sep{
@@ -163,12 +163,6 @@ color: blue;
 } */
 
 .date{
-    /* float: right;
-    margin-left: 5px; */
-    font-size: 65%;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-.s-right .sub-sec .sub-sec-para-sep{
-    margin-top: 2%;
+    float: right;
+    margin-left: 5px;
 }
